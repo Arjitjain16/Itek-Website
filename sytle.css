@@ -859,6 +859,10 @@ video {
   width: 6rem;
 }
 
+.w-\[13vmax\] {
+  width: 13vmax;
+}
+
 .w-\[15vmax\] {
   width: 15vmax;
 }
@@ -1221,6 +1225,10 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .flex-row {
   flex-direction: row;
 }
@@ -1409,6 +1417,10 @@ video {
   gap: 2.5rem;
 }
 
+.gap-12 {
+  gap: 3rem;
+}
+
 .gap-14 {
   gap: 3.5rem;
 }
@@ -1459,6 +1471,10 @@ video {
 
 .gap-\[3vmax\] {
   gap: 3vmax;
+}
+
+.gap-16 {
+  gap: 4rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2200,6 +2216,35 @@ video {
   line-height: 1.75rem;
 }
 
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-\[4vmax\] {
+  font-size: 4vmax;
+}
+
+.text-\[3\.5vmax\] {
+  font-size: 3.5vmax;
+}
+
+.text-\[3\.8vmax\] {
+  font-size: 3.8vmax;
+}
+
+.text-\[3\.6vmax\] {
+  font-size: 3.6vmax;
+}
+
+.text-\[3\.4vmax\] {
+  font-size: 3.4vmax;
+}
+
+.text-\[3\.2vmax\] {
+  font-size: 3.2vmax;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2316,6 +2361,11 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\#7557DD\] {
+  --tw-text-opacity: 1;
+  color: rgb(117 87 221 / var(--tw-text-opacity));
 }
 
 .underline {
@@ -2794,6 +2844,12 @@ video {
 
   .max-\[1040px\]\:gap-16 {
     gap: 4rem;
+  }
+}
+
+@media (max-width: 1000px) {
+  .max-\[1000px\]\:grid {
+    display: grid;
   }
 }
 
