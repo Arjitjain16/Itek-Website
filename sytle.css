@@ -1221,10 +1221,6 @@ video {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
-.grid-rows-3 {
-  grid-template-rows: repeat(3, minmax(0, 1fr));
-}
-
 .flex-row {
   flex-direction: row;
 }
@@ -1409,10 +1405,6 @@ video {
   justify-items: stretch;
 }
 
-.gap-16 {
-  gap: 4rem;
-}
-
 .gap-2 {
   gap: 0.5rem;
 }
@@ -1447,6 +1439,14 @@ video {
 
 .gap-9 {
   gap: 2.25rem;
+}
+
+.gap-32 {
+  gap: 8rem;
+}
+
+.gap-28 {
+  gap: 7rem;
 }
 
 .space-x-2 > :not([hidden]) ~ :not([hidden]) {
@@ -2097,6 +2097,11 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -2171,11 +2176,6 @@ video {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .font-bold {
@@ -2752,6 +2752,18 @@ video {
   .max-\[1040px\]\:flex-col {
     flex-direction: column;
   }
+
+  .max-\[1040px\]\:gap-10 {
+    gap: 2.5rem;
+  }
+
+  .max-\[1040px\]\:gap-12 {
+    gap: 3rem;
+  }
+
+  .max-\[1040px\]\:gap-16 {
+    gap: 4rem;
+  }
 }
 
 @media (max-width: 950px) {
@@ -2761,10 +2773,6 @@ video {
 }
 
 @media (max-width: 900px) {
-  .max-\[900px\]\:grid {
-    display: grid;
-  }
-
   .max-\[900px\]\:w-\[20vmax\] {
     width: 20vmax;
   }
@@ -2773,37 +2781,12 @@ video {
     width: 100%;
   }
 
-  .max-\[900px\]\:w-\[19vmax\] {
-    width: 19vmax;
-  }
-
-  .max-\[900px\]\:w-\[24vmax\] {
-    width: 24vmax;
-  }
-
-  .max-\[900px\]\:w-\[28vmax\] {
-    width: 28vmax;
-  }
-
-  .max-\[900px\]\:w-\[34vmax\] {
-    width: 34vmax;
-  }
-
-  .max-\[900px\]\:w-\[40vmax\] {
-    width: 40vmax;
-  }
-
   .max-\[900px\]\:flex-col {
     flex-direction: column;
   }
 
   .max-\[900px\]\:gap-8 {
     gap: 2rem;
-  }
-
-  .max-\[900px\]\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
   }
 }
 
@@ -2825,6 +2808,13 @@ video {
   .max-\[620px\]\:px-4 {
     padding-left: 1rem;
     padding-right: 1rem;
+  }
+}
+
+@media (max-width: 510px) {
+  .max-\[510px\]\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 
