@@ -1,0 +1,14 @@
+{
+  "name": "itek-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "dev": "tailwindcss -i ./tailwind.css -o ./sytle.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.3"
+  }
+}
