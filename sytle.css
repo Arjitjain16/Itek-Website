@@ -2904,6 +2904,12 @@ video {
   }
 }
 
+@media (max-width: 00px) {
+  .max-\[00px\]\:flex-col {
+    flex-direction: column;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:underline {
     text-decoration-line: underline;
