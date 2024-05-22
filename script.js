@@ -40,17 +40,17 @@ gsap.from("nav , .section1",{
 })
 
 
-gsap.from(".section2",{
-    y : 10,
-    opacity : 0,
-    duration : 1.5,
-    scrollTrigger :{
-        trigger : ".section2",
-        scroller : ".main",
-        start : "52%",
-        end : "top 10%",
-        markers : true,
-        scrub : 2
-    }
-})
+// gsap.from(".section2",{
+//     y : 10,
+//     opacity : 0,
+//     duration : 1.5,
+//     scrollTrigger :{
+//         trigger : ".section2",
+//         scroller : ".main",
+//         start : "52%",
+//         end : "top 10%",
+//         markers : true,
+//         scrub : 2
+//     }
+// })
 
